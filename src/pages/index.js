@@ -11,7 +11,7 @@ const Wrapper = tw.div`
 `
 
 const Main = tw.div`
-  p-6 bg-gray-100 rounded-lg shadow-2xl lg:w-1/2 w-full
+  p-6 bg-gray-100 rounded-lg shadow-2xl lg:w-1/2 w-full py-12
 `
 
 const Heading = tw.h1`
@@ -33,10 +33,7 @@ export default function Index() {
           <Text className="pt-12 text-left">
           <br/>Ära vare gud i höjden
           <br/>denna har min syster gjort i slöjden<br/>
-
-          
           </Text>
-
         </Main>
       </Wrapper>
     </Layout>
